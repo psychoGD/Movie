@@ -1,0 +1,37 @@
+.poster {
+    display: inline-block;
+    width: 300px;
+    /* background-color: #f8f8f8; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    font-family: Arial, sans-serif;
+}
+
+/* Poster image */
+.poster img {
+    width: 100%;
+    max-height: 500px;
+    max-width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Poster title */
+.poster h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Poster description */
+.poster p {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+/* Poster year */
+.poster .year {
+    color: #000000;
+    font-weight: bold;
+}
